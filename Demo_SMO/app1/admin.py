@@ -1,3 +1,9 @@
 from django.contrib import admin
+from .models import Requirements, Report, LeadsManagement
 
-# Register your models here.
+admin.site.register(Report)
+admin.site.register(Requirements)
+admin.site.register(LeadsManagement)
+
+
+
